@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55416575178D99B200928D77 /* ComputerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 55416574178D99B200928D77 /* ComputerHand.m */; };
 		55AA54E9178CAD0600A387FB /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA54E8178CAD0600A387FB /* Judge.m */; };
 		9343F5881728A08D009085AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5871728A08D009085AA /* UIKit.framework */; };
 		9343F58A1728A08D009085AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5891728A08D009085AA /* Foundation.framework */; };
@@ -23,8 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55416573178D99B200928D77 /* ComputerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerHand.h; sourceTree = "<group>"; };
-		55416574178D99B200928D77 /* ComputerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerHand.m; sourceTree = "<group>"; };
 		55AA54E7178CAD0600A387FB /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
 		55AA54E8178CAD0600A387FB /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
 		9343F5841728A08D009085AA /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,8 +92,6 @@
 				9343F5A01728A08D009085AA /* ViewController.m */,
 				9343F5A21728A08D009085AA /* ViewController.xib */,
 				55AA54E7178CAD0600A387FB /* Judge.h */,
-				55416573178D99B200928D77 /* ComputerHand.h */,
-				55416574178D99B200928D77 /* ComputerHand.m */,
 				55AA54E8178CAD0600A387FB /* Judge.m */,
 				9343F58E1728A08D009085AA /* Supporting Files */,
 			);
@@ -187,7 +182,6 @@
 				9343F5981728A08D009085AA /* AppDelegate.m in Sources */,
 				9343F5A11728A08D009085AA /* ViewController.m in Sources */,
 				55AA54E9178CAD0600A387FB /* Judge.m in Sources */,
-				55416575178D99B200928D77 /* ComputerHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

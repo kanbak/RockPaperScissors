@@ -19,6 +19,7 @@
     __weak IBOutlet UILabel *countDownLabel;
     __weak IBOutlet UILabel *computerHandLabel;
     __weak IBOutlet UILabel *playerHandLabel;
+    bool computerWon;
 }
 - (IBAction)start:(id)sender;
 - (IBAction)rock:(id)sender;
@@ -32,18 +33,16 @@
 
 
 {
-    BOOL computerWon;
-    Judge *myresult;
+    Judge *myresult = [[Judge alloc] init];
     [myresult didComputerWin:computerHandLabel.text :playerHandLabel.text];
-    computerWon = myresult = [[Judge alloc] init];
-    
+    computerWon=myresult;
     
     
     // replace the YES with a call to your custom Judge class
     
     
     
-    if (computerWon) {
+    if (computerWon ==YES) {
         computerHandLabel.backgroundColor = [UIColor greenColor];
     }
     else{
